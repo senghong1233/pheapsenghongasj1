@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #298dc7;
+    padding: 30px;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+input[type="text"]:hover {
+    transform: scale(1.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #2ed365;
+    border-radius: 4px;
+    background-color: #f0f8ff;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #2ed365;
+    border-radius: 4px;
+    background-color: #f0f8ff;
+}
+
+input[type="email"]:hover {
+    transform: scale(1.1);
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #2ed365;
+    border-radius: 4px;
+    background-color: #f0f8ff;
+}
+
+input[type="password"]:hover {
+    transform: scale(1.1);
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #2ed365;
+    border-radius: 4px;
+    background-color: #f0f8ff;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"]:hover {
+    transform: scale(1.4);
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #2ed365;
+    border-radius: 4px;
+    background-color: #f0f8ff;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #eee;
+    border: 2px solid #2ed365;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0a03e9;
+    transform: scale(1.2);
+}
